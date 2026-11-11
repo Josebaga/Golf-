@@ -1,0 +1,15 @@
+GOLF STATS — primera versión
+
+Contenido:
+- index.html: aplicación.
+- manifest.webmanifest y sw.js: soporte de instalación y caché offline cuando se sirve desde HTTPS o localhost.
+
+Prueba rápida:
+1. Descomprime la carpeta.
+2. Abre index.html en un navegador para probar las funciones básicas.
+3. Para instalarla como app y habilitar el modo offline completo, publica la carpeta en un hosting HTTPS (por ejemplo GitHub Pages).
+4. En Android abre la dirección con Chrome > menú ⋮ > Añadir a pantalla de inicio / Instalar aplicación.
+
+Los datos se guardan en el almacenamiento local del navegador de ese dispositivo. No borres los datos del sitio si quieres conservar las partidas.
+
+Esta versión registra golpes y par. No calcula hándicap oficial ni sincroniza entre móviles.
